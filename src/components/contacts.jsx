@@ -12,7 +12,7 @@ export default function Contacts() {
         {
             "icone": <BiSolidEnvelopeOpen/>,
             "contact": "mbolasoa0509@gmail.com",
-            "lien":"contact"
+            "lien":"#contact"
         },
         {
             "icone": <FaFacebook/>,
