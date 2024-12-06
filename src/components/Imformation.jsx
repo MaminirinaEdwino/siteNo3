@@ -9,7 +9,7 @@ export default function Information() {
             "image": <TbSwimming/>,
             "titre": "SPORT",
             "details": [
-                "Participation à plusierus championnats régionales, nationales et internationals",
+                "Participation à plusieurs championnats régionales, nationales et internationals",
                 "Plusieurs records et performance"
             ]
         },
