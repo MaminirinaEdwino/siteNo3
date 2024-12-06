@@ -7,12 +7,12 @@ export default function Contacts() {
         {
             "icone": <BiSolidPhone/>,
             "contact": "034 09 260 56",
-            "lien": ""
+            "lien": "#contact"
         },
         {
             "icone": <BiSolidEnvelopeOpen/>,
             "contact": "mbolasoa0509@gmail.com",
-            "lien":""
+            "lien":"contact"
         },
         {
             "icone": <FaFacebook/>,
