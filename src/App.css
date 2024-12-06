@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-couleur: #ff0066;
+  --font-family-font: "Segoe UI";
+}
+
+.appearence{
+  animation-timeline: view();
+  animation: appear linear;
+}
+
+@keyframes appear{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
