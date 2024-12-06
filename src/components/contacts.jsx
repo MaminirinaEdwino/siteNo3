@@ -6,15 +6,18 @@ export default function Contacts() {
     const listContact = [
         {
             "icone": <BiSolidPhone/>,
-            "contact": "034 09 260 56"
+            "contact": "034 09 260 56",
+            "lien": ""
         },
         {
             "icone": <BiSolidEnvelopeOpen/>,
-            "contact": "mbolasoa0509@gmail.com"
+            "contact": "mbolasoa0509@gmail.com",
+            "lien":""
         },
         {
             "icone": <FaFacebook/>,
-            "contact": "Ony Mbolasoa"
+            "contact": "Ony Mbolasoa",
+            "lien":"https://web.facebook.com/ony.mbolasoa"
         }
     ]
     return <motion.section 
@@ -33,7 +36,7 @@ export default function Contacts() {
             Pour une collaboration, des demandes particulières ou autres, n'hésitez pas a me contacter au:
         </div>
         <div className="flex flex-wrap sm:justify-between items-center sm:w-[80%] space-y-3 mt-5">
-            {listContact.map((l,i)=><Contact contact={l.contact} key={i+l.contact} i={i} icone={l.icone}/>)}
+            {listContact.map((l,i)=><Contact contact={l.contact} key={i+l.contact} i={i} icone={l.icone} lien={l.lien}/>)}
         </div>
     </motion.section>
 }

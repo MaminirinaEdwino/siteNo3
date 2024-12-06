@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-export default function Contact({contact, icone, i}) {
+export default function Contact({contact, icone, i, lien}) {
     return <motion.a 
     initial={{
         opacity:0
@@ -11,7 +11,7 @@ export default function Contact({contact, icone, i}) {
             delay:(i+1)*.1
         }
     }}
-    href="https://web.facebook.com/ony.mbolasoa"
+    href={lien}
     className="flex items-center bg-couleur rounded-2xl px-4 w-fit py-1 space-x-2 text-white">
         {icone} {contact}
     </motion.a>
